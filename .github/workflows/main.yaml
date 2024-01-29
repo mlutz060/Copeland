@@ -14,8 +14,8 @@ jobs:
           node-version: '21.6.1'  
 
       - name: Install Dependencies
-        run: npm install --prefix weather-app
+        run: npm install --prefix weather
 
 
       - name: Build React App
-        run: npm run build --prefix weather-app
+        run: npm run build --prefix weather
